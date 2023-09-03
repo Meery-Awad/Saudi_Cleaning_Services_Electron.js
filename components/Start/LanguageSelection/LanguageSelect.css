@@ -1,0 +1,12 @@
+.selectBox {
+    border: 1px solid ;
+    margin-top: 8%;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    z-index: 1;
+    color: rgb(92, 92, 92);
+}
+.optionsMenu{
+    padding: 3px;
+}

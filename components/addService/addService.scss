@@ -1,0 +1,114 @@
+@import '../Header/header.scss';
+@import '../Start/StartUp/LogIn/Login.scss';
+.addServiceCont{
+width:100%;
+margin:2% auto ;
+padding: 25px;
+box-shadow: 1px 3px 5px #888;
+display: block;
+}
+$marginButton:2%;
+$marginButton2:1%;
+.selectBox1{
+    padding:1px 3px;
+}
+.addServiceCont .label{
+    color: $colorPage;
+    font-weight: bold;   
+    font-size: 1.1em; 
+    margin-bottom: $marginButton2;
+}
+.addServiceCont input,.addServiceCont select{
+    padding: 4px;
+    width: 90%;
+    border: 2px solid $secondColor;
+    border-radius: 10px;
+    margin-bottom: $marginButton;
+    outline: none;
+}
+
+.addServiceCont .list-item{
+    display: flex;
+  width: 100%;
+}
+.addServiceCont .fa.fa-trash{
+    position: absolute;
+    color: rgb(218, 40, 40);
+    font-size: 1.2em;
+  
+   margin:25px -15% 0px -15% ;
+   cursor: pointer;
+   
+   
+}
+.addServiceCont p{
+    font-size: 0.9em;
+    font-weight: bold;
+    color:$colorPage;
+   
+}
+
+
+.addServiceCont .NewService{
+    width: 100%;
+}
+.addServiceCont .pricService{
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+.addServiceCont .priceService{
+    width: 50%;
+}
+ .AddServiceBtn{
+    color:$colorPage;
+    font-size: 1em;
+    margin-top: 2%;
+    cursor: pointer;
+    
+}
+.addServiceCont span{
+    border-bottom: 1px solid $colorPage;
+    width: max-content;
+}
+.addServiceCont .fa{
+    margin-left: 2px;
+    margin-right: 2px;
+    color:$colorPage;
+    
+
+}
+.addServiceCont .BTN{
+    display: flex;
+    margin-top: 8%;
+    text-align: center;
+   
+    height: 48px;
+
+}
+.notSuccessADDServi2{
+    @include alert();
+    position: fixed;
+    z-index: 10;
+    width: 55%;
+    display: block;
+}
+// .addServiceCont .AddBTN {
+//     background-color: $secondColor;
+//     border-radius: 3px;
+//     width: 100%;
+//     margin-left: 2px;
+//     margin-right: 2px;
+//     color: #fff;
+//     padding-top: 8px;
+    
+// }
+// .addServiceCont .CloseBTN{
+//     background-color: $headerBg;
+//     border-radius: 3px;
+//     padding-top: 8px;
+//     width: 100%;
+//     border:1px solid #888
+   
+
+// }

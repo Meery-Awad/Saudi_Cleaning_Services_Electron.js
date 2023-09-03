@@ -1,0 +1,123 @@
+@import '../../../Header/header.scss';
+.Login-form-header {
+    font-weight: bold;
+    font-size: 1.6em;
+    color: $colorPage;
+    /* margin-left:5px ;
+    margin-right: 5px; */
+    margin-bottom: 30px;
+}
+.Login-form
+{
+margin-top: -60px;
+}
+.Login-form-inputs {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-login-form {
+    width: max-content;
+    background-color: $secondColor;
+    border-color: $secondColor;
+    
+}
+
+.btn-login-form:hover {
+    width: max-content;
+    background-color: $colorPage;
+    border-color: $colorPage;
+}
+
+.Login-form-no-account {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-form-sign-up-btn {
+    color: $secondColor;
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.current-section-start {
+    display: block;
+}
+.login-form-header-language{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Login-form .passWord{
+    display: flex;
+}
+@mixin alert {
+       position: relative;
+    background-color: #ffcfcc;
+    border: 1px solid #f44336;
+    border-left: 9px solid #f44336;
+    color: #f44336;
+    opacity: 0.83;
+    transition: opacity 0.6s;
+    border-radius: 6px;
+    display: none;
+    width:100%;
+    margin: auto;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  text-align: center;
+    z-index: 0;
+
+}
+
+@mixin AlertIcon {
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+   
+   
+    
+}
+.fa.fa-exclamation{
+    @include AlertIcon()
+
+}
+.alert  {
+    
+   @include alert();
+   position: absolute;
+   margin:auto;
+   max-width: 70%;
+}
+
+
+.closebtn {
+  position: absolute;
+    color: #f44336;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.8em;
+    margin: -30px 5px 3px 5px;
+   
+}
+.Login-form .fa.fa-eye-slash , .Login-form .fa.fa-eye
+{
+    position: absolute;
+margin:10px 34%;
+cursor: pointer;
+   
+}
+@media screen and (max-width: 990px) {
+    .Login-form .fa.fa-eye-slash , .Login-form .fa.fa-eye
+    {
+        position: absolute;
+    margin:10px 30%;
+       
+    }
+}

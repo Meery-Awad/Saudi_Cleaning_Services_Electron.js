@@ -1,0 +1,278 @@
+.logo {
+  width: 100%;
+  height: 2.5em;
+}
+
+.navHeader {
+  background-color: rgba(8, 79, 212, 0.8);
+  box-shadow: 0 0 4px 0 rgb(161, 161, 161);
+  height: 70px;
+}
+
+.nav-link {
+  margin-left: 1em;
+  font-size: 1em;
+  background-color: none;
+  z-index: 1;
+}
+
+.NavBar {
+  width: 90%;
+  display: flex;
+  margin-right: 43%;
+  margin-left: 43%;
+  z-index: 7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border: none;
+  outline: none;
+  padding: 4px;
+  margin-top: 1%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navL:hover {
+  color: #88c0ee;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: 2px solid rgba(14, 133, 230, 0.8);
+  border: 10px;
+}
+
+.navL {
+  color: #fff;
+}
+
+.Header .nav {
+  width: 100%;
+}
+
+.navL.main {
+  padding: 2px;
+  border-bottom: 2px solid #88c0ee;
+}
+
+.Header .selectBox {
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  margin-top: 4%;
+  border-radius: 5px;
+  margin-left: 20px;
+  outline: none;
+  padding-bottom: 2px;
+  z-index: 2;
+}
+
+.Header section {
+  z-index: 1;
+}
+
+.Header .line1 {
+  border-right: 2px solid rgba(14, 133, 230, 0.8);
+  padding: 5px;
+  height: 40px;
+}
+
+.notiNum {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 20px;
+  font-size: 0.7em;
+  background-color: rgb(219, 35, 35);
+  padding: 0px 7px 22px 7px;
+  border-radius: 40%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+  .NavBar {
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .NavBar {
+    background-color: white;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px #888;
+    padding: 10px 20px 10px 0px;
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+  .navL {
+    color: rgba(8, 79, 212, 0.8);
+  }
+  .logo {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .line1 {
+    display: none;
+  }
+  .notiNum {
+    margin: 5px 130px;
+  }
+}
+.fa.fa-bars {
+  font-size: 17px;
+  padding: 4px;
+  color: #fff;
+}
+
+.orders .item {
+  width: 90%;
+  background: white;
+  box-shadow: 1px 2px 3px rgb(175, 174, 174);
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  border: 1px solid rgba(14, 133, 230, 0.8);
+}
+
+.orders .item:hover {
+  box-shadow: 2px 5px 6px #888;
+  border: 2px solid rgba(14, 133, 230, 0.8);
+  cursor: pointer;
+}
+
+.orders .SelectedBox, .orders .optionsMen {
+  padding: 2px 5px;
+}
+
+.orders .empty {
+  margin-top: 13%;
+}
+
+.orders .SelectedBox {
+  outline: rgba(8, 79, 212, 0.8);
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgb(207, 206, 206);
+  margin: 1% 5%;
+}
+
+.orders .orderInfo {
+  padding: 20px 50px;
+  font-size: 1.1em;
+}
+
+.orders .numOfOrder {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: black;
+  padding: 0px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.orders .dateOrder {
+  color: #888;
+}
+
+.orders .stateOrder {
+  color: rgba(14, 133, 230, 0.8);
+  width: 400px;
+}
+
+.orders .btnOrders {
+  position: absolute;
+  display: flex;
+  margin-top: 50px;
+  margin-right: 70%;
+  margin-left: 70%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.orders .btn1 {
+  background-color: rgba(8, 79, 212, 0.8);
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #fff;
+  cursor: pointer;
+}
+
+.orders .btn2 {
+  background-color: rgb(250, 41, 41);
+  padding: 7px 10px;
+  border-radius: 5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #fff;
+  cursor: pointer;
+}
+
+.orders h2 {
+  margin-top: 20px;
+  color: rgba(8, 79, 212, 0.8);
+}
+
+.orders .separator {
+  position: relative;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.orders .separator:after,
+.orders .separator:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: rgba(8, 79, 212, 0.8);
+  top: 50%;
+}
+
+.orders .separator i {
+  color: rgba(8, 79, 212, 0.8);
+}
+
+.orders .separator:after {
+  right: 140%;
+}
+
+.orders .separator:before {
+  left: 140%;
+}
+
+.orders .btnModal1.btn.btn-primary {
+  width: 80%;
+  background-color: rgba(8, 79, 212, 0.8);
+  margin: auto;
+}
+
+.orders .btnModal1.btn.btn-primary:hover {
+  color: rgba(8, 79, 212, 0.8);
+  background-color: #fff;
+  border: 1px solid rgba(8, 79, 212, 0.8);
+}
+
+@media screen and (max-width: 990px) {
+  .orders .item {
+    width: 100%;
+  }
+  .orders .SelectedBox {
+    margin: 1%;
+  }
+}/*# sourceMappingURL=orders.css.map */

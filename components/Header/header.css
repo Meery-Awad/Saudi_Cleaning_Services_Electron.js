@@ -1,0 +1,133 @@
+.logo {
+  width: 100%;
+  height: 2.5em;
+}
+
+.navHeader {
+  background-color: rgba(8, 79, 212, 0.8);
+  box-shadow: 0 0 4px 0 rgb(161, 161, 161);
+  height: 70px;
+}
+
+.nav-link {
+  margin-left: 1em;
+  font-size: 1em;
+  background-color: none;
+  z-index: 1;
+}
+
+.NavBar {
+  width: 90%;
+  display: flex;
+  margin-right: 43%;
+  margin-left: 43%;
+  z-index: 7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border: none;
+  outline: none;
+  padding: 4px;
+  margin-top: 1%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navL:hover {
+  color: #88c0ee;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: 2px solid rgba(14, 133, 230, 0.8);
+  border: 10px;
+}
+
+.navL {
+  color: #fff;
+}
+
+.Header .nav {
+  width: 100%;
+}
+
+.navL.main {
+  padding: 2px;
+  border-bottom: 2px solid #88c0ee;
+}
+
+.Header .selectBox {
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  margin-top: 4%;
+  border-radius: 5px;
+  margin-left: 20px;
+  outline: none;
+  padding-bottom: 2px;
+  z-index: 2;
+}
+
+.Header section {
+  z-index: 1;
+}
+
+.Header .line1 {
+  border-right: 2px solid rgba(14, 133, 230, 0.8);
+  padding: 5px;
+  height: 40px;
+}
+
+.notiNum {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 20px;
+  font-size: 0.7em;
+  background-color: rgb(219, 35, 35);
+  padding: 0px 7px 22px 7px;
+  border-radius: 40%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+  .NavBar {
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .NavBar {
+    background-color: white;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px #888;
+    padding: 10px 20px 10px 0px;
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+  .navL {
+    color: rgba(8, 79, 212, 0.8);
+  }
+  .logo {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .line1 {
+    display: none;
+  }
+  .notiNum {
+    margin: 5px 130px;
+  }
+}
+.fa.fa-bars {
+  font-size: 17px;
+  padding: 4px;
+  color: #fff;
+}/*# sourceMappingURL=header.css.map */

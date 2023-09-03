@@ -1,0 +1,305 @@
+.logo {
+  width: 100%;
+  height: 2.5em;
+}
+
+.navHeader {
+  background-color: rgba(8, 79, 212, 0.8);
+  box-shadow: 0 0 4px 0 rgb(161, 161, 161);
+  height: 70px;
+}
+
+.nav-link {
+  margin-left: 1em;
+  font-size: 1em;
+  background-color: none;
+  z-index: 1;
+}
+
+.NavBar {
+  width: 90%;
+  display: flex;
+  margin-right: 43%;
+  margin-left: 43%;
+  z-index: 7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border: none;
+  outline: none;
+  padding: 4px;
+  margin-top: 1%;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navL:hover {
+  color: #88c0ee;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: 2px solid rgba(14, 133, 230, 0.8);
+  border: 10px;
+}
+
+.navL {
+  color: #fff;
+}
+
+.Header .nav {
+  width: 100%;
+}
+
+.navL.main {
+  padding: 2px;
+  border-bottom: 2px solid #88c0ee;
+}
+
+.Header .selectBox {
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  margin-top: 4%;
+  border-radius: 5px;
+  margin-left: 20px;
+  outline: none;
+  padding-bottom: 2px;
+  z-index: 2;
+}
+
+.Header section {
+  z-index: 1;
+}
+
+.Header .line1 {
+  border-right: 2px solid rgba(14, 133, 230, 0.8);
+  padding: 5px;
+  height: 40px;
+}
+
+.notiNum {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
+  width: -moz-max-content;
+  width: max-content;
+  height: 20px;
+  font-size: 0.7em;
+  background-color: rgb(219, 35, 35);
+  padding: 0px 7px 22px 7px;
+  border-radius: 40%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+  .NavBar {
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .NavBar {
+    background-color: white;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px #888;
+    padding: 10px 20px 10px 0px;
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+  .navL {
+    color: rgba(8, 79, 212, 0.8);
+  }
+  .logo {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .line1 {
+    display: none;
+  }
+  .notiNum {
+    margin: 5px 130px;
+  }
+}
+.fa.fa-bars {
+  font-size: 17px;
+  padding: 4px;
+  color: #fff;
+}
+
+.deliveryCont {
+  margin: 0.3%;
+  width: 100%;
+}
+
+.deliveryCont h2 {
+  color: rgba(8, 79, 212, 0.8);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.deliveryCont p {
+  font-size: 1em;
+  color: rgb(107, 107, 107);
+  margin: 0.5% 0.2%;
+  margin-bottom: 0;
+}
+
+.deliveryCont .date {
+  margin-top: 1%;
+  display: flex;
+}
+
+.deliveryCont input[type=date], .deliveryCont input[type=text] {
+  margin-top: 1%;
+  border: 1.5px solid rgba(14, 133, 230, 0.8);
+  padding: 2px 4px;
+  font-size: 1em;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.deliveryCont input[type=text] {
+  width: 15%;
+}
+
+.par {
+  font-size: 0.8em;
+  color: rgb(107, 107, 107);
+  padding-top: 7px;
+}
+
+.par1 {
+  font-size: 1.4em;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.fa.fa-calendar {
+  margin-left: 3px;
+  margin-right: 3px;
+  color: rgba(8, 79, 212, 0.8);
+}
+
+.deliveryCont .error {
+  color: red;
+  padding-bottom: 6px;
+}
+
+.deliveryCont .fromDate, .deliveryCont input[type=text] {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.deliveryList {
+  display: flex;
+  width: 100%;
+}
+
+.deliveryList .fa.fa-trash {
+  width: 5%;
+  color: rgb(218, 40, 40);
+  font-size: 1.2em;
+  margin-top: 15%;
+}
+
+.deliveryList .form {
+  width: 100%;
+  --rch-c-input-bg: #cfcfcf;
+  --rch-c-input-text: rgba(14, 133, 230,0.8);
+  --rch-c-input-border: rgba(14, 133, 230,0.8);
+  --rch-c-input-border-active: rgba(8,79,212,0.8);
+  --rch-input-border-radius: 3px;
+  --rch-input-border-width: 1px;
+  --rch-cb-size: 25px;
+  gap: var(--rch-cb-size);
+  margin-bottom: var(--rch-cb-size);
+}
+.deliveryList .form .formLabelCont {
+  display: flex;
+  flex-wrap: wrap;
+}
+.deliveryList .form .text {
+  font-size: 1.1em;
+  margin-top: 4.5%;
+  margin-bottom: 2%;
+  color: rgba(8, 79, 212, 0.8);
+}
+.deliveryList .form .caption {
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: 0.9em;
+}
+.deliveryList .form input[type=checkbox] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: var(--rch-input-border-width) solid var(--rch-c-input-border);
+  background-color: var(--rch-c-input-bg);
+  width: var(--rch-cb-size);
+  height: var(--rch-cb-size);
+  padding: 0;
+  position: relative;
+  text-transform: none;
+  line-height: 1;
+  z-index: 5;
+  cursor: pointer;
+}
+.deliveryList .form input[type=checkbox]:checked, .deliveryList .form input[type=checkbox]:focus {
+  border: 1px solid var(--rch-c-input-border-active);
+}
+.deliveryList .form input[type=checkbox]:after {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  margin: 0;
+  border-radius: 100%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: block;
+  width: calc(var(--rch-cb-size) - var(--rch-input-border-width));
+  height: calc(var(--rch-cb-size) - var(--rch-input-border-width));
+  background-color: rgba(14, 133, 230, 0.8);
+  top: 0;
+  left: 0;
+  outline: none;
+  transform: scale(2);
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 0;
+}
+.deliveryList .form input[type=checkbox]:active:not(:checked):after {
+  transform: scale(0);
+  opacity: 1;
+  transition: opacity 0s, transform 0s;
+}
+.deliveryList .form input[type=checkbox] {
+  border-radius: var(--rch-input-border-radius);
+}
+.deliveryList .form input[type=checkbox]:checked:before {
+  content: "";
+  position: absolute;
+  background-color: var(--rch-c-input-border-active);
+  width: calc(var(--rch-cb-size) - 4 * var(--rch-input-border-width));
+  height: calc(var(--rch-cb-size) - 4 * var(--rch-input-border-width));
+  top: var(--rch-input-border-width);
+  left: var(--rch-input-border-width);
+  border: 1px solid rgba(8, 79, 212, 0.8);
+  transform-origin: bottom left;
+  -webkit-clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+          clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.form__label {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  align-items: center;
+  line-height: 1rem;
+  margin-left: 4%;
+  margin-right: 4%;
+}/*# sourceMappingURL=FreeDelivery.css.map */

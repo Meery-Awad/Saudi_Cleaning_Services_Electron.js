@@ -1,0 +1,434 @@
+@import '../Header/header.scss';
+@import '../Start/StartUp/SignUp/SignUp.scss';
+@import '../Start//StartUp/LogIn/Login.scss';
+
+.launCont{
+    width:100%
+    
+}
+.laun{
+    box-shadow: 1px 3px 8px #888;
+    width: 100%;
+    margin: 0% auto;
+     padding-bottom: 50px;
+}
+
+.launDet{
+
+display: flex;
+background-color: rgb(241, 241, 241);
+font-size: 1.1em;
+padding: 70px;
+
+}
+.launDet2{
+    margin-right: 70%;
+    margin-left:70% ;
+    margin-top:-10px;
+    font-size: 1.1em;
+}
+.laun .star{
+   background-color: rgba(158, 158, 158,0.8);
+   border-radius: 10px;
+   text-align: center;
+   color:#fff; margin-top:15px;
+}
+.laun .fa.fa-star{
+    color:rgb(243, 243, 71)
+}
+.laun .fa.fa-phone , .laun .fa.fa-map-marker{
+    color: #888;
+    font-size: 1.1em;
+}
+.laun .fa{
+font-size: 1em;
+}
+.launName , .laun .start , .laun .phone, .LaunLocation{
+    width: max-content;
+    padding-bottom: 30px;
+}
+.laun i{
+    margin: 0 10px;
+}
+.laun .launName{
+    font-weight: bold;
+    font-size: 1.35em;
+}
+.laun .deliveryState{
+    color:$colorPage
+}
+
+.laun .ServiceLaun{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px 70px;
+
+    // border: 1px solid red;
+}
+.laun .LanduBTN{
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+    z-index: 0;
+}
+$addservi:rgb(79, 197, 79);
+@mixin lanBTN {
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+   width: max-content;
+    text-align: center;
+    font-size: 1em;
+    
+    text-decoration: none;
+  
+}
+.laun .addService{
+    position: absolute;
+   background-color: $addservi;
+   margin-right: 5%;
+   margin-left: 5%;
+ 
+   @include lanBTN();
+  
+ 
+}
+.laun .addService:hover{
+  
+    color: $addservi;
+    background-color: #fff;
+    border: 1.5px solid $addservi ;
+    cursor: pointer;
+   
+}
+.laun .discount{
+    position: absolute;
+    display: flex;
+    margin-right: 72%;
+    margin-left: 72%;
+   
+  
+
+}
+$delivery:rgb(223, 223, 35);
+.laun .deliveryBtn{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: $delivery;
+    @include lanBTN();
+   
+
+}
+.laun .deliveryBtn:hover{
+    color: $delivery;
+    background-color: #fff;
+    border: 1.5px solid $delivery ;
+    cursor: pointer;
+}
+.laun .discountBtn{
+   
+    background-color: $secondColor;
+    @include lanBTN();
+
+}
+.laun .discountBtn:hover{
+    color: $secondColor;
+    background-color: #fff;
+    border: 1.5px solid $secondColor ;
+    cursor: pointer;
+}
+
+.laun a{
+    text-decoration: none;
+    width: 100%;
+}
+.laun .text{
+ margin: 7% 45% 2.5% 45%;
+width: max-content;
+color: $secondColor;
+font-size: 1.2em;
+font-weight: bold;
+
+
+}
+.laun table{
+    width: 90%;
+    margin-top:10px;
+   
+}
+
+ .currentLocation{
+    width:max-content;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid $secondColor;
+     color: $secondColor;
+      font-size: 0.7em; 
+     border-radius: 5px;
+     padding: 3px 15px;
+     margin-left: 11%;
+    margin-right: 11%;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 1px 1px 1px #888;
+    }
+     
+}
+
+
+
+.Noti,.Noti1{
+    position: absolute;
+    width: 50%;
+   margin: 15% 25%;
+   background-color: #fff;
+    box-shadow: 1px 2px 4px #888;
+    border-radius: 7px;
+    padding: 20px;
+    border: 1px solid $colorPage;
+z-index: 5;
+
+}
+.Noti1{
+    position: relative;
+    width:100%;
+    margin:0;
+   
+}
+
+.Noti .serviceNum,.Noti p,.Noti1 .serviceNum, .Noti1 p{
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.serviceNum {
+    font-weight: bold;
+   
+}
+.Noti .NotiBTN{
+    display: flex;
+   
+    width: 100%;
+ 
+ margin:20px auto
+}
+@mixin NotiBtn {
+    padding: 5px 8px;
+    color: #fff;
+    border-radius: 7px;
+    width: 100% ;
+    text-align: center;
+    cursor: pointer;
+}
+.Noti .editBTN{
+    
+    background-color: $colorPage;
+    margin-left: 2px;
+    margin-right: 2px;
+    @include NotiBtn();
+  
+   
+}
+
+.Noti .deleteBTN{
+    background-color: rgb(250, 41, 41);
+   @include NotiBtn();
+   
+
+}
+.Noti .editBTN:hover ,.Noti .deleteBTN,.laun .firstRow{
+    cursor: pointer;
+}
+.Noti .fa.fa-times{
+    position: absolute;
+    width: 100%;
+    padding:1px;
+    cursor: pointer;
+}
+.Noti1 .fa.fa-times {
+cursor: pointer;
+}
+
+.Noti .fa.fa-times:hover{
+   color: $colorPage;
+}
+.Noti1 .latiInput{
+    margin-left: 17px;
+}
+.Noti1 .inputNoti{
+    direction: ltr;
+  margin: 10px 24%;
+  
+   
+}
+
+.inputeNotiCont{
+    margin:10px 10% ;
+}
+.Noti1 a{
+   
+    font-size: 1.1em;
+    margin-left:2%;
+    width: max-content;
+    cursor: pointer;
+  
+}
+.inputNoti input{
+   
+    border: 1px solid $colorPage;
+    border-radius: 3px;
+    width: 60%;
+   margin: 5px;
+   padding:3px 5px;
+}
+
+// -------------- right click Menu ----------------------
+
+
+
+
+
+.contextMenu,.contextMenu1,.contextMenu2 {
+    position: absolute;
+    margin-top: 30%;
+    margin-right: 18%;
+    background: white;
+    box-shadow: 0px 2px 10px #999999;
+    
+    &--option {
+        padding: 6px 10px;
+        min-width: 160px;
+        cursor: default;
+        font-size: 12px;
+        &:hover {
+            background: $colorPage;
+            color: white;
+        }
+        
+        &:active {
+            color: #e9e9e9;
+            background: $colorPage;
+        }
+        
+        &__disabled {
+            color: #999999;
+            pointer-events: none;
+        }
+    }
+    
+    &--separator {
+        width: 100%;
+        height: 1px;
+        background: #CCCCCC;
+        margin: 0 0 0 0;
+    }
+}
+
+.contextMenu1{
+margin-top: 32%;
+margin-right: 22%;
+}
+.contextMenu2{
+    margin-top: 37%;
+    margin-right: 22%;
+}
+.empty{
+   
+    text-align: center;
+    display: block;
+    color: #888;
+    margin-top:5%;
+   
+  
+}
+
+// ------------------------------------
+
+.successGetCoord,.launCont .notSuccessADDServi,.notSuccessADDServi1 {
+  
+    @include alert();
+   
+    display: block;
+    opacity: 0.8;
+   
+}
+.notSuccessADDServi1{
+    width: 55%;
+    position: fixed;
+}
+
+.launCont .closebtn{
+    margin: -50px 10px 0px 10px;
+  
+}
+
+.successGetCoord{
+    @include success();
+}
+.successGetCoord  .closebtn{
+    color: #04AA6D;
+}
+@media screen and (max-width: 1190px) {
+    .launDet2 {
+        margin-right: 59%;
+        margin-left:59% ;
+    }
+     .laun .discount{
+       
+        margin-right: 62%;
+        margin-left: 62% ;
+    }}
+
+@media screen and (max-width: 990px) {
+
+    .launDet2 {
+        margin-right: 53%;
+        margin-left:53% ;
+    }
+    .laun .discount{
+       
+        margin-right: 56% ;
+        margin-left: 56% ;
+    }
+   
+   
+    .launDet{
+
+       
+        padding: 40px;
+        
+        }
+        .Noti1 .inputNoti{
+            direction: ltr;
+          margin: 10px 7%;
+          
+           
+        }
+        .Noti1 .inputNoti{
+            direction: ltr;
+          margin: 1px 5%;
+          
+           
+        }
+        .contextMenu{
+            margin-top:60%;
+            margin-right: 6%;
+        } 
+        .contextMenu1{
+            margin-top: 66%;
+            margin-right: 6%;
+            }
+            .contextMenu2{
+                margin-top: 77%;
+                margin-right: 6%;
+            }
+           
+            .laun .text{
+                margin: 11% 41% 2.5% 41%;   
+            }
+         
+       
+    
+}

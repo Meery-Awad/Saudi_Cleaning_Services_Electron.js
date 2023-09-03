@@ -1,0 +1,120 @@
+@import '../Header/header.scss';
+
+.Statistics .tabStatis{
+width:100%;
+display: flex;
+margin-top: 3px;
+}
+.statistics-tab{
+    margin: auto;
+}
+.Statistics .statisDay , .Statistics .statisYear{
+    color: $secondColor;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border:1px solid $secondColor;
+    text-align: center;
+    width: 90%;
+    height: 50px;
+    padding-top:5px ;
+    transition: all .2s ease-out;
+    
+
+}
+.Statistics .statisDay:hover , .Statistics .statisYear:hover{
+    cursor: pointer;
+
+}
+
+.Statistics .statisDay{
+    background-color: rgba(184, 184, 184, 0.3);
+  
+    
+   
+    
+}
+
+
+.Statistics .orderSendToday{
+width: 100%;
+margin: 25px auto ;
+
+
+}
+.Statistics .orderSendToday p{
+    text-align: center;
+}
+
+.Statistics .statisYear{
+    color: $secondColor;
+    
+}
+.Statistics p{
+    
+    color:$colorPage;
+}
+
+
+.Statistics .title{
+    text-align: center;
+}
+.Statistics .orderSend p{
+    width: max-content;
+    color:$colorPage;
+    flex-flow: wrap;
+   
+}
+
+.Statistics .TableHead,.Statistics .firstRow{
+    text-align: center;
+}
+
+.Statistics .countOrder{
+    background-color: $secondColor;
+    border-radius: 5px;
+    width: max-content;
+    padding: 1px 15% ;
+    color: #fff;
+    font-size: 1.1em;
+    margin: auto;
+    // box-shadow: 2px 2px 4px #888;
+
+}
+.Statistics table{
+    width:95%;
+    margin: auto;
+}
+.barChar1{
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #888;
+    margin: auto ;
+    margin-top:3%;
+    width: max-content;
+    padding: 20px 60px 40px 60px;
+    margin-top: 5%;
+}
+
+.barChar{
+    display: flex;
+}
+.Statistics .empty{
+    text-align: center;
+    display: block;
+    color: #888;
+  
+}
+@media screen and (max-width: 990px) {
+
+    
+    .barChar {
+        
+     display: block;
+    
+}
+.barChar1{
+    margin-top: 3%;
+    padding: 20px 100px 40px 100px;
+   
+}
+ 
+}

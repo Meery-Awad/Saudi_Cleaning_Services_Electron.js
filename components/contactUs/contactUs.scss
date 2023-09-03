@@ -1,0 +1,130 @@
+@import '../header/header.scss';
+
+.contactUs {
+    position: relative;
+      width: 100%;
+    font-size: 1em;
+    direction: rtl;
+    z-index: 0;
+    display: block;
+    
+}
+
+.contactUs input{
+    width: 80%;
+    border: 0.12em solid $secondColor;
+   border-radius: 10px;
+    margin: 10px 10%;
+    padding: 0.5em;
+    outline-color: $colorPage;
+
+   
+}
+
+.contactUs .contener{
+   
+    margin-top: 10px;
+}
+
+.contact-header {
+    color: $colorPage;
+    // border-bottom: solid 0.1em $colorPage;
+    width: fit-content;
+    padding-bottom: 0.3em;
+    display: block;
+    font-size: 24px;
+    margin:auto;
+    margin-top: 20px;
+ 
+   
+}
+
+
+
+.contact-subheading {
+   
+    color: rgb(100, 99, 99);
+    font-size: 15px;
+   padding:0px 0px 15px ;
+    text-align: center;
+}
+
+// .btn-contactUs {
+  
+ 
+//     border-radius: 10px;
+//     box-shadow: 2px 2px 2px rgba(97, 97, 97, 0.5);
+//     font-size: 15px;
+//     color:#ffff;
+//     height: 35px;
+//     padding-bottom: 25px;
+//     background-color: $colorPage;
+
+//     border:1px solid #ffffff;
+//     text-align: center;
+//    padding-top:5px ;
+//     width: 73%;
+//     font-weight: bolder;
+//    margin: 1% 13.5%;
+// }
+// .btn-contactUs:hover{
+//     background: #ffffff;
+//     border: 1px solid $colorPage;
+//     color:$colorPage;
+   
+// }
+.textarea-contactUs {
+  
+   
+    width: 80%;
+    height: 150px;
+    outline-color: $colorPage;
+    border: 0.12em solid $secondColor;
+    display: block;
+    font-size: 1.1em;
+    padding: 0.5em;
+    margin-top: 10px;
+    border-radius: 10px;
+    // box-shadow: 0 0 4px 0 rgb(73, 73, 73);
+    margin: auto;
+}
+
+.textarea-contactUs::placeholder , .inputContact::placeholder {
+    padding: 0.1em;
+}
+
+.contactUs img {
+   width:100%;
+  
+  
+}
+.contactUs .separator {
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+    margin:0 49.5% ;
+   
+
+}
+.contactUs .separator:after,
+.contactUs .separator:before {
+position: absolute;
+content: "";
+width: 50px;
+height: 2px;
+background-color: $colorPage;
+top: 0%;
+
+}
+.contactUs .separator i {
+    color: $colorPage
+}
+
+.contactUs .separator:after {
+     right: 180%;
+}
+
+.contactUs .separator:before {
+    left: 180%;
+}
+

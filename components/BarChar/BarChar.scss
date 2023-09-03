@@ -1,0 +1,62 @@
+
+@import '../Header/header.scss';
+.dropDown1{
+    position: relative;
+   margin: 0.1% 1%;
+   padding: 5px 13px;
+   color:#333;
+   font-size: 1em;
+   background-color:rgb(153, 153, 153);
+   outline: none;
+   margin-right: -5%;
+  
+     
+ }
+ .dropDown{
+   position: absolute;
+   width: 100px;
+   
+ }
+ .dropDown1.dropdown-toggle.btn.btn-secondary{
+   background-color: rgb(216, 216, 216);
+  margin-top: 15px;
+  margin-left: 100px;
+  border: 1px solid $secondColor;
+ }
+ 
+ .yearMenu1.dropdown-menu.show{
+ //  position: relative;
+    
+     
+     font-size: 1em;
+    max-height: 240px;
+    margin-left: -5px;
+    margin-top: 5px;
+    padding:0px;
+  width: max-content;
+  
+ }
+ .menu-item1{
+ 
+ // width: 100%;
+ 
+ }
+   
+ .chartCont .h4{
+    margin: 1px;
+   
+     
+ }
+ .chartCont p{
+   
+   width:500px;
+   
+   position: absolute;
+   color:$secondColor;
+   font-size: 1.1em;
+   text-align: center;
+   margin-top: 15px;
+  
+  
+ }
+ 

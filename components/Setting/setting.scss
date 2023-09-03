@@ -1,0 +1,224 @@
+@import '../header/header.scss';
+@import url('../../node_modules/font-awesome/css/font-awesome.css');
+//  include alert
+@import '../Start/StartUp/LogIn/Login.scss';
+//  include success btn
+@import '../Start/StartUp/SignUp/SignUp.scss'; 
+
+.settings-container input:focus,
+.settings-container label:focus
+{
+    outline:0px !important;
+    -webkit-appearance:none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+    outline:none !important;
+}
+
+
+.settings-container{
+  background-color:white;
+  border-radius:0.25rem;
+  display:flex;
+ 
+  // overflow:hidden;
+  box-shadow: 0px 2px 12px -4px rgba(0,0,0,0.1);
+  margin-top: 1%;
+ 
+  
+  .left-column{
+    width:max-content;
+   
+    // padding:0 20px 0 20px;
+    ul{
+      margin:0;
+    height: 80vh;
+      list-style-type:none;
+      display:flex;
+      flex-direction:column;
+      
+      padding:0;
+      li {
+        flex: auto ;
+        padding:0px 40px;
+      
+        cursor:pointer;
+        color:$colorPage;
+        transition: all .2s ease-out;
+        text-transform:uppercase;
+        letter-spacing:1.5px;
+        font-weight:bold;
+        display: flex;
+        align-items: center;
+        &:hover{
+          background-color:$secondColor;
+          color:white;
+        }
+        i{
+          margin-right:10px;
+          margin-left:10px ;
+          color:$colorPage
+        }
+      }
+    }
+  }
+  .settings-tab{
+    width:75%;
+    padding:0 2%;
+   
+    // border-right: 3px solid $secondColor;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    form{
+      width:80%;
+      display:flex;
+      flex-direction:column;
+    
+      margin-left: 3%;
+      margin-right: 3%;
+    }
+    .input-group{
+      width:400px;
+      display: flex;
+      flex-direction:column;
+      flex-wrap: wrap;
+      align-items: stretch;
+      margin:25px 0 0;
+      input{
+        padding-left: 0 !important;
+       width: 400px;
+        line-height: 1.2;
+        color: #333;
+        font-size: 17px;
+        background: transparent;
+        padding: 0 5px;
+        border:none;
+        border-bottom: 1px solid #ced4da;
+      }
+      label{
+        font-size: 15px;
+        color: #333;
+        opacity: 0.8;
+      }
+    }
+    h1{
+      font-size:17px;
+      margin-top:30px;
+    
+    font-weight: bold;
+      
+      text-transform:uppercase;
+      letter-spacing:1.5px;
+      color: $secondColor;
+      opacity: 0.8;
+      
+
+    }
+    h2 {
+      color: #E83114;
+      font-size:16px;
+      font-weight:normal;
+      text-align:center;
+      margin-bottom:20px;
+    }
+    img{
+      width:80px;
+      height:80px;
+      object-fit:cover;
+      border-radius:50%;
+      cursor: pointer;
+      margin:10px;
+    }
+    
+  }
+  .text{
+    margin-bottom: 30px;
+    color:#333;
+  }
+  .line{
+    border: 1.2px solid $secondColor;
+    background-color: $secondColor;
+    
+  }
+}
+
+.settings-container .btn{
+  display: flex;
+  background-size: contain;
+  background-position: center;
+  background: linear-gradient(332deg, $secondColor 0%, $secondColor 100%);
+  color: white;
+  border-radius: 0.25rem;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  padding: 10px 30px;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-transform:uppercase;
+  justify-content:center;
+  cursor:pointer;
+  transition: transform .1s;
+  margin: 30px 0 20px 0;
+  
+}
+.settings-container .btn:hover{
+  
+    background:none;
+  background:$colorPage;
+   
+  
+}
+.Loc{
+  display: flex;
+}
+
+.passCont{
+  display: flex;
+}
+.settings-container .fa-eye-slash,.settings-container .fa-eye{
+  margin-right: -10px;
+  margin-left: -10px;
+  color:#888;
+  cursor: pointer;
+
+}
+
+
+.currentLocNeed{
+  color:rgb(243, 40, 40);
+  font-size: 0.8em;
+ margin-top: 30px;
+  margin-bottom: 2px;
+
+}
+.settings .notSuccessSett, .settings .successSett{
+ 
+  @include alert();
+  
+}
+.settings .successSett{
+  @include success();
+
+}
+
+.settings-tab .currentLocation{
+   
+    margin: 4% 0% ;
+    border-radius: 5px;
+     
+}
+
+
+.successSett .closebtn{
+  color: #04AA6D; 
+  cursor: pointer;
+}
+@media screen and (max-width: 990px){
+  .left-column{
+    li{
+      padding:2px;
+    }
+  }
+  
+}

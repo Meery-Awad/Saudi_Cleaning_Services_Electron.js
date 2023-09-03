@@ -1,0 +1,135 @@
+@import '../Header/header.scss';
+.orders .item{
+  width: 90%;
+ background: #ffff;
+//  border: 1px solid $colorPage;
+box-shadow: 1px 2px 3px rgb(175, 174, 174);
+ display: flex;
+ margin:auto;
+ margin-top: 15px;
+ border: 1px solid $secondColor;
+ 
+}
+.orders .item:hover{
+
+box-shadow: 2px 5px 6px #888;
+border: 2px solid $secondColor;
+cursor: pointer;
+ 
+ 
+}
+.orders .SelectedBox,.orders .optionsMen{
+  padding:2px 5px;
+}
+.orders .empty{
+  margin-top: 13%;
+}
+.orders .SelectedBox{
+  
+  outline: $colorPage;
+  border: 1px solid $secondColor;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgb(207, 206, 206);
+ margin:1% 5%;
+
+}
+.orders .orderInfo{
+    padding: 20px 50px;
+    font-size: 1.1em;;
+}
+.orders .numOfOrder{
+    font-weight: bold;
+    font-size: 0.9em;
+    color: black;
+    padding:0px ;
+    width: max-content;
+}
+.orders .dateOrder{
+    color: #888;
+}
+.orders .stateOrder{
+    color: $secondColor;
+    width: 400px;
+}
+@mixin btnOrder {
+   
+     padding: 7px 10px;
+    border-radius: 5px;
+   width: max-content;
+   color: #fff;
+   cursor: pointer;
+   
+}
+.orders .btnOrders{
+   position: absolute;
+   display: flex;
+     margin-top:50px;
+    margin-right: 70%;
+    margin-left: 70%;
+   width: max-content;
+      
+    }
+.orders .btn1{
+    background-color: $colorPage;
+    margin-left: 5px;
+    margin-right: 5px;
+    @include btnOrder();
+}
+.orders .btn2{
+    background-color: rgb(250, 41, 41);
+    @include btnOrder();
+   
+}
+.orders h2{
+    margin-top:20px;
+    color: $colorPage;
+}
+.orders .separator {
+    position: relative;
+    display: inline-block;
+    text-transform: capitalize;
+    
+  }
+  
+  .orders .separator:after,
+  .orders .separator:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: $colorPage;
+    top: 50%;
+  
+  }
+  
+  .orders .separator i {
+    color: $colorPage;
+  }
+  
+  .orders .separator:after {
+    right: 140%;
+  }
+  
+  .orders .separator:before {
+    left: 140%;
+  }
+.orders .btnModal1.btn.btn-primary{
+    width: 80%;
+    background-color: $colorPage;
+    margin: auto;
+}
+.orders .btnModal1.btn.btn-primary:hover{
+  color:$colorPage;
+   background-color: #fff;
+   border:1px solid $colorPage
+}
+  @media screen and (max-width: 990px) {
+
+    
+    .orders .item {
+       width: 100%;
+}
+.orders .SelectedBox{
+  margin: 1%;
+}
+}

@@ -1,0 +1,1375 @@
+.logo {
+  width: 100%;
+  height: 2.5em;
+}
+
+.navHeader {
+  background-color: rgba(8, 79, 212, 0.8);
+  box-shadow: 0 0 4px 0 rgb(161, 161, 161);
+  height: 70px;
+}
+
+.nav-link {
+  margin-left: 1em;
+  font-size: 1em;
+  background-color: none;
+  z-index: 1;
+}
+
+.NavBar {
+  width: 90%;
+  display: flex;
+  margin-right: 43%;
+  margin-left: 43%;
+  z-index: 7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border: none;
+  outline: none;
+  padding: 4px;
+  margin-top: 1%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navL:hover {
+  color: #88c0ee;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: 2px solid rgba(14, 133, 230, 0.8);
+  border: 10px;
+}
+
+.navL {
+  color: #fff;
+}
+
+.Header .nav {
+  width: 100%;
+}
+
+.navL.main {
+  padding: 2px;
+  border-bottom: 2px solid #88c0ee;
+}
+
+.Header .selectBox {
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  margin-top: 4%;
+  border-radius: 5px;
+  margin-left: 20px;
+  outline: none;
+  padding-bottom: 2px;
+  z-index: 2;
+}
+
+.Header section {
+  z-index: 1;
+}
+
+.Header .line1 {
+  border-right: 2px solid rgba(14, 133, 230, 0.8);
+  padding: 5px;
+  height: 40px;
+}
+
+.notiNum {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 20px;
+  font-size: 0.7em;
+  background-color: rgb(219, 35, 35);
+  padding: 0px 7px 22px 7px;
+  border-radius: 40%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+  .NavBar {
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .NavBar {
+    background-color: white;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px #888;
+    padding: 10px 20px 10px 0px;
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+  .navL {
+    color: rgba(8, 79, 212, 0.8);
+  }
+  .logo {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .line1 {
+    display: none;
+  }
+  .notiNum {
+    margin: 5px 130px;
+  }
+}
+.fa.fa-bars {
+  font-size: 17px;
+  padding: 4px;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  height: 2.5em;
+}
+
+.navHeader {
+  background-color: rgba(8, 79, 212, 0.8);
+  box-shadow: 0 0 4px 0 rgb(161, 161, 161);
+  height: 70px;
+}
+
+.nav-link {
+  margin-left: 1em;
+  font-size: 1em;
+  background-color: none;
+  z-index: 1;
+}
+
+.NavBar {
+  width: 90%;
+  display: flex;
+  margin-right: 43%;
+  margin-left: 43%;
+  z-index: 7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border: none;
+  outline: none;
+  padding: 4px;
+  margin-top: 1%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navL:hover {
+  color: #88c0ee;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: 2px solid rgba(14, 133, 230, 0.8);
+  border: 10px;
+}
+
+.navL {
+  color: #fff;
+}
+
+.Header .nav {
+  width: 100%;
+}
+
+.navL.main {
+  padding: 2px;
+  border-bottom: 2px solid #88c0ee;
+}
+
+.Header .selectBox {
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  margin-top: 4%;
+  border-radius: 5px;
+  margin-left: 20px;
+  outline: none;
+  padding-bottom: 2px;
+  z-index: 2;
+}
+
+.Header section {
+  z-index: 1;
+}
+
+.Header .line1 {
+  border-right: 2px solid rgba(14, 133, 230, 0.8);
+  padding: 5px;
+  height: 40px;
+}
+
+.notiNum {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 20px;
+  font-size: 0.7em;
+  background-color: rgb(219, 35, 35);
+  padding: 0px 7px 22px 7px;
+  border-radius: 40%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+  .NavBar {
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .NavBar {
+    background-color: white;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px #888;
+    padding: 10px 20px 10px 0px;
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+  .navL {
+    color: rgba(8, 79, 212, 0.8);
+  }
+  .logo {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .line1 {
+    display: none;
+  }
+  .notiNum {
+    margin: 5px 130px;
+  }
+}
+.fa.fa-bars {
+  font-size: 17px;
+  padding: 4px;
+  color: #fff;
+}
+
+.logo {
+  width: 100%;
+  height: 2.5em;
+}
+
+.navHeader {
+  background-color: rgba(8, 79, 212, 0.8);
+  box-shadow: 0 0 4px 0 rgb(161, 161, 161);
+  height: 70px;
+}
+
+.nav-link {
+  margin-left: 1em;
+  font-size: 1em;
+  background-color: none;
+  z-index: 1;
+}
+
+.NavBar {
+  width: 90%;
+  display: flex;
+  margin-right: 43%;
+  margin-left: 43%;
+  z-index: 7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border: none;
+  outline: none;
+  padding: 4px;
+  margin-top: 1%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navL:hover {
+  color: #88c0ee;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: 2px solid rgba(14, 133, 230, 0.8);
+  border: 10px;
+}
+
+.navL {
+  color: #fff;
+}
+
+.Header .nav {
+  width: 100%;
+}
+
+.navL.main {
+  padding: 2px;
+  border-bottom: 2px solid #88c0ee;
+}
+
+.Header .selectBox {
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  margin-top: 4%;
+  border-radius: 5px;
+  margin-left: 20px;
+  outline: none;
+  padding-bottom: 2px;
+  z-index: 2;
+}
+
+.Header section {
+  z-index: 1;
+}
+
+.Header .line1 {
+  border-right: 2px solid rgba(14, 133, 230, 0.8);
+  padding: 5px;
+  height: 40px;
+}
+
+.notiNum {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 20px;
+  font-size: 0.7em;
+  background-color: rgb(219, 35, 35);
+  padding: 0px 7px 22px 7px;
+  border-radius: 40%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+  .NavBar {
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .NavBar {
+    background-color: white;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px #888;
+    padding: 10px 20px 10px 0px;
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+  .navL {
+    color: rgba(8, 79, 212, 0.8);
+  }
+  .logo {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .line1 {
+    display: none;
+  }
+  .notiNum {
+    margin: 5px 130px;
+  }
+}
+.fa.fa-bars {
+  font-size: 17px;
+  padding: 4px;
+  color: #fff;
+}
+
+.Login-form-header {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: rgba(8, 79, 212, 0.8);
+  /* margin-left:5px ;
+  margin-right: 5px; */
+  margin-bottom: 30px;
+}
+
+.Login-form {
+  margin-top: -60px;
+}
+
+.Login-form-inputs {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-login-form {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(14, 133, 230, 0.8);
+  border-color: rgba(14, 133, 230, 0.8);
+}
+
+.btn-login-form:hover {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(8, 79, 212, 0.8);
+  border-color: rgba(8, 79, 212, 0.8);
+}
+
+.Login-form-no-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login-form-sign-up-btn {
+  color: rgba(14, 133, 230, 0.8);
+  text-decoration: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.current-section-start {
+  display: block;
+}
+
+.login-form-header-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Login-form .passWord {
+  display: flex;
+}
+
+.fa.fa-exclamation {
+  font-size: 1.3em;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.alert {
+  position: relative;
+  background-color: #ffcfcc;
+  border: 1px solid #f44336;
+  border-left: 9px solid #f44336;
+  color: #f44336;
+  opacity: 0.83;
+  transition: opacity 0.6s;
+  border-radius: 6px;
+  display: none;
+  width: 100%;
+  margin: auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+  z-index: 0;
+  position: absolute;
+  margin: auto;
+  max-width: 70%;
+}
+
+.closebtn {
+  position: absolute;
+  color: #f44336;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.8em;
+  margin: -30px 5px 3px 5px;
+}
+
+.Login-form .fa.fa-eye-slash, .Login-form .fa.fa-eye {
+  position: absolute;
+  margin: 10px 34%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+  .Login-form .fa.fa-eye-slash, .Login-form .fa.fa-eye {
+    position: absolute;
+    margin: 10px 30%;
+  }
+}
+.SignUp-form-header {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: rgba(8, 79, 212, 0.8);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.SignUp-form-inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-SignUp-form {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(14, 133, 230, 0.8);
+  border-color: rgba(14, 133, 230, 0.8);
+  margin-top: -2px;
+}
+
+.btn-SignUp-form:hover {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(8, 79, 212, 0.8);
+  border-color: rgba(8, 79, 212, 0.8);
+}
+
+.SignUp-form-no-account {
+  margin-top: 10px;
+}
+
+.SignUp-form-sign-up-btn {
+  color: rgba(14, 133, 230, 0.8);
+  text-decoration: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.current-section-start {
+  display: block;
+}
+
+.signup-with {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-with-head {
+  color: gray;
+}
+
+.signup-method-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.signup-method {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  border: rgb(179, 179, 179) solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-method:hover {
+  background-color: rgba(223, 217, 217, 0.849);
+}
+
+.signup-form-header-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.SignUp-form .location {
+  display: flex;
+}
+
+.SignUp-form .currentLoc {
+  background-color: rgba(14, 133, 230, 0.8);
+  color: white;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 0.7em;
+}
+
+.SignUp-form .fa.fa-eye-slash, .SignUp-form .fa.fa-eye {
+  position: absolute;
+  margin: 10px 38%;
+  cursor: pointer;
+}
+
+.SignUp-form .success .closebtn {
+  color: #04AA6D;
+}
+
+.SignUp-form .notSuccess, .SignUp-form .success {
+  position: relative;
+  background-color: #ffcfcc;
+  border: 1px solid #f44336;
+  border-left: 9px solid #f44336;
+  color: #f44336;
+  opacity: 0.83;
+  transition: opacity 0.6s;
+  border-radius: 6px;
+  display: none;
+  width: 100%;
+  margin: auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+  z-index: 0;
+  position: absolute;
+  margin: auto;
+  max-width: 70%;
+}
+
+.SignUp-form .success {
+  border: 1px solid #04AA6D;
+  border-left: 9px solid #04AA6D;
+  background-color: #ade2cd;
+  color: #04AA6D;
+  opacity: 0.8;
+  z-index: 5;
+}
+
+.fa.fa-check {
+  font-size: 1.3em;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.SignUp-form .optionsMenu {
+  height: 40px;
+  overflow: scroll;
+}
+
+.SignUp-form .SelectedBox {
+  width: 100%;
+  color: #212529;
+  background-color: #fff;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.SignUp-form .SelectedBox:focus {
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+@media screen and (max-width: 990px) {
+  .SignUp-form .fa.fa-eye-slash, .SignUp-form .fa.fa-eye {
+    position: absolute;
+    margin: 10px 34%;
+  }
+}
+.SignUp-form .form-text {
+  font-size: 0.8em;
+  margin-bottom: -5px;
+}
+
+.logo {
+  width: 100%;
+  height: 2.5em;
+}
+
+.navHeader {
+  background-color: rgba(8, 79, 212, 0.8);
+  box-shadow: 0 0 4px 0 rgb(161, 161, 161);
+  height: 70px;
+}
+
+.nav-link {
+  margin-left: 1em;
+  font-size: 1em;
+  background-color: none;
+  z-index: 1;
+}
+
+.NavBar {
+  width: 90%;
+  display: flex;
+  margin-right: 43%;
+  margin-left: 43%;
+  z-index: 7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  border: none;
+  outline: none;
+  padding: 4px;
+  margin-top: 1%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navL:hover {
+  color: #88c0ee;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  border-bottom: 2px solid rgba(14, 133, 230, 0.8);
+  border: 10px;
+}
+
+.navL {
+  color: #fff;
+}
+
+.Header .nav {
+  width: 100%;
+}
+
+.navL.main {
+  padding: 2px;
+  border-bottom: 2px solid #88c0ee;
+}
+
+.Header .selectBox {
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  margin-top: 4%;
+  border-radius: 5px;
+  margin-left: 20px;
+  outline: none;
+  padding-bottom: 2px;
+  z-index: 2;
+}
+
+.Header section {
+  z-index: 1;
+}
+
+.Header .line1 {
+  border-right: 2px solid rgba(14, 133, 230, 0.8);
+  padding: 5px;
+  height: 40px;
+}
+
+.notiNum {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -5px;
+  margin-right: -5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 20px;
+  font-size: 0.7em;
+  background-color: rgb(219, 35, 35);
+  padding: 0px 7px 22px 7px;
+  border-radius: 40%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+  .NavBar {
+    background-color: transparent;
+    box-shadow: none;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .NavBar {
+    background-color: white;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px #888;
+    padding: 10px 20px 10px 0px;
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+  .navL {
+    color: rgba(8, 79, 212, 0.8);
+  }
+  .logo {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .line1 {
+    display: none;
+  }
+  .notiNum {
+    margin: 5px 130px;
+  }
+}
+.fa.fa-bars {
+  font-size: 17px;
+  padding: 4px;
+  color: #fff;
+}
+
+.Login-form-header {
+  font-weight: bold;
+  font-size: 1.6em;
+  color: rgba(8, 79, 212, 0.8);
+  /* margin-left:5px ;
+  margin-right: 5px; */
+  margin-bottom: 30px;
+}
+
+.Login-form {
+  margin-top: -60px;
+}
+
+.Login-form-inputs {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-login-form {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(14, 133, 230, 0.8);
+  border-color: rgba(14, 133, 230, 0.8);
+}
+
+.btn-login-form:hover {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(8, 79, 212, 0.8);
+  border-color: rgba(8, 79, 212, 0.8);
+}
+
+.Login-form-no-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login-form-sign-up-btn {
+  color: rgba(14, 133, 230, 0.8);
+  text-decoration: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.current-section-start {
+  display: block;
+}
+
+.login-form-header-language {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Login-form .passWord {
+  display: flex;
+}
+
+.fa.fa-exclamation {
+  font-size: 1.3em;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.alert {
+  position: relative;
+  background-color: #ffcfcc;
+  border: 1px solid #f44336;
+  border-left: 9px solid #f44336;
+  color: #f44336;
+  opacity: 0.83;
+  transition: opacity 0.6s;
+  border-radius: 6px;
+  display: none;
+  width: 100%;
+  margin: auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+  z-index: 0;
+  position: absolute;
+  margin: auto;
+  max-width: 70%;
+}
+
+.closebtn {
+  position: absolute;
+  color: #f44336;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.8em;
+  margin: -30px 5px 3px 5px;
+}
+
+.Login-form .fa.fa-eye-slash, .Login-form .fa.fa-eye {
+  position: absolute;
+  margin: 10px 34%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 990px) {
+  .Login-form .fa.fa-eye-slash, .Login-form .fa.fa-eye {
+    position: absolute;
+    margin: 10px 30%;
+  }
+}
+.launCont {
+  width: 100%;
+}
+
+.laun {
+  box-shadow: 1px 3px 8px #888;
+  width: 100%;
+  margin: 0% auto;
+  padding-bottom: 50px;
+}
+
+.launDet {
+  display: flex;
+  background-color: rgb(241, 241, 241);
+  font-size: 1.1em;
+  padding: 70px;
+}
+
+.launDet2 {
+  margin-right: 70%;
+  margin-left: 70%;
+  margin-top: -10px;
+  font-size: 1.1em;
+}
+
+.laun .star {
+  background-color: rgba(158, 158, 158, 0.8);
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.laun .fa.fa-star {
+  color: rgb(243, 243, 71);
+}
+
+.laun .fa.fa-phone, .laun .fa.fa-map-marker {
+  color: #888;
+  font-size: 1.1em;
+}
+
+.laun .fa {
+  font-size: 1em;
+}
+
+.launName, .laun .start, .laun .phone, .LaunLocation {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding-bottom: 30px;
+}
+
+.laun i {
+  margin: 0 10px;
+}
+
+.laun .launName {
+  font-weight: bold;
+  font-size: 1.35em;
+}
+
+.laun .deliveryState {
+  color: rgba(8, 79, 212, 0.8);
+}
+
+.laun .ServiceLaun {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px 70px;
+}
+
+.laun .LanduBTN {
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+  z-index: 0;
+}
+
+.laun .addService {
+  position: absolute;
+  background-color: rgb(79, 197, 79);
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.laun .addService:hover {
+  color: rgb(79, 197, 79);
+  background-color: #fff;
+  border: 1.5px solid rgb(79, 197, 79);
+  cursor: pointer;
+}
+
+.laun .discount {
+  position: absolute;
+  display: flex;
+  margin-right: 72%;
+  margin-left: 72%;
+}
+
+.laun .deliveryBtn {
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(223, 223, 35);
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.laun .deliveryBtn:hover {
+  color: rgb(223, 223, 35);
+  background-color: #fff;
+  border: 1.5px solid rgb(223, 223, 35);
+  cursor: pointer;
+}
+
+.laun .discountBtn {
+  background-color: rgba(14, 133, 230, 0.8);
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.laun .discountBtn:hover {
+  color: rgba(14, 133, 230, 0.8);
+  background-color: #fff;
+  border: 1.5px solid rgba(14, 133, 230, 0.8);
+  cursor: pointer;
+}
+
+.laun a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.laun .text {
+  margin: 7% 45% 2.5% 45%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: rgba(14, 133, 230, 0.8);
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.laun table {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.currentLocation {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid rgba(14, 133, 230, 0.8);
+  color: rgba(14, 133, 230, 0.8);
+  font-size: 0.7em;
+  border-radius: 5px;
+  padding: 3px 15px;
+  margin-left: 11%;
+  margin-right: 11%;
+  cursor: pointer;
+}
+.currentLocation:hover {
+  box-shadow: 1px 1px 1px #888;
+}
+
+.Noti, .Noti1 {
+  position: absolute;
+  width: 50%;
+  margin: 15% 25%;
+  background-color: #fff;
+  box-shadow: 1px 2px 4px #888;
+  border-radius: 7px;
+  padding: 20px;
+  border: 1px solid rgba(8, 79, 212, 0.8);
+  z-index: 5;
+}
+
+.Noti1 {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.Noti .serviceNum, .Noti p, .Noti1 .serviceNum, .Noti1 p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.serviceNum {
+  font-weight: bold;
+}
+
+.Noti .NotiBTN {
+  display: flex;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.Noti .editBTN {
+  background-color: rgba(8, 79, 212, 0.8);
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 5px 8px;
+  color: #fff;
+  border-radius: 7px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Noti .deleteBTN {
+  background-color: rgb(250, 41, 41);
+  padding: 5px 8px;
+  color: #fff;
+  border-radius: 7px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Noti .editBTN:hover, .Noti .deleteBTN, .laun .firstRow {
+  cursor: pointer;
+}
+
+.Noti .fa.fa-times {
+  position: absolute;
+  width: 100%;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.Noti1 .fa.fa-times {
+  cursor: pointer;
+}
+
+.Noti .fa.fa-times:hover {
+  color: rgba(8, 79, 212, 0.8);
+}
+
+.Noti1 .latiInput {
+  margin-left: 17px;
+}
+
+.Noti1 .inputNoti {
+  direction: ltr;
+  margin: 10px 24%;
+}
+
+.inputeNotiCont {
+  margin: 10px 10%;
+}
+
+.Noti1 a {
+  font-size: 1.1em;
+  margin-left: 2%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  cursor: pointer;
+}
+
+.inputNoti input {
+  border: 1px solid rgba(8, 79, 212, 0.8);
+  border-radius: 3px;
+  width: 60%;
+  margin: 5px;
+  padding: 3px 5px;
+}
+
+.contextMenu, .contextMenu1, .contextMenu2 {
+  position: absolute;
+  margin-top: 30%;
+  margin-right: 18%;
+  background: white;
+  box-shadow: 0px 2px 10px #999999;
+}
+.contextMenu--option, .contextMenu1--option, .contextMenu2--option {
+  padding: 6px 10px;
+  min-width: 160px;
+  cursor: default;
+  font-size: 12px;
+}
+.contextMenu--option:hover, .contextMenu1--option:hover, .contextMenu2--option:hover {
+  background: rgba(8, 79, 212, 0.8);
+  color: white;
+}
+.contextMenu--option:active, .contextMenu1--option:active, .contextMenu2--option:active {
+  color: #e9e9e9;
+  background: rgba(8, 79, 212, 0.8);
+}
+.contextMenu--option__disabled, .contextMenu1--option__disabled, .contextMenu2--option__disabled {
+  color: #999999;
+  pointer-events: none;
+}
+.contextMenu--separator, .contextMenu1--separator, .contextMenu2--separator {
+  width: 100%;
+  height: 1px;
+  background: #CCCCCC;
+  margin: 0 0 0 0;
+}
+
+.contextMenu1 {
+  margin-top: 32%;
+  margin-right: 22%;
+}
+
+.contextMenu2 {
+  margin-top: 37%;
+  margin-right: 22%;
+}
+
+.empty {
+  text-align: center;
+  display: block;
+  color: #888;
+  margin-top: 5%;
+}
+
+.successGetCoord, .launCont .notSuccessADDServi, .notSuccessADDServi1 {
+  position: relative;
+  background-color: #ffcfcc;
+  border: 1px solid #f44336;
+  border-left: 9px solid #f44336;
+  color: #f44336;
+  opacity: 0.83;
+  transition: opacity 0.6s;
+  border-radius: 6px;
+  display: none;
+  width: 100%;
+  margin: auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: center;
+  z-index: 0;
+  display: block;
+  opacity: 0.8;
+}
+
+.notSuccessADDServi1 {
+  width: 55%;
+  position: fixed;
+}
+
+.launCont .closebtn {
+  margin: -50px 10px 0px 10px;
+}
+
+.successGetCoord {
+  border: 1px solid #04AA6D;
+  border-left: 9px solid #04AA6D;
+  background-color: #ade2cd;
+  color: #04AA6D;
+  opacity: 0.8;
+  z-index: 5;
+}
+
+.successGetCoord .closebtn {
+  color: #04AA6D;
+}
+
+@media screen and (max-width: 1190px) {
+  .launDet2 {
+    margin-right: 59%;
+    margin-left: 59%;
+  }
+  .laun .discount {
+    margin-right: 62%;
+    margin-left: 62%;
+  }
+}
+@media screen and (max-width: 990px) {
+  .launDet2 {
+    margin-right: 53%;
+    margin-left: 53%;
+  }
+  .laun .discount {
+    margin-right: 56%;
+    margin-left: 56%;
+  }
+  .launDet {
+    padding: 40px;
+  }
+  .Noti1 .inputNoti {
+    direction: ltr;
+    margin: 10px 7%;
+  }
+  .Noti1 .inputNoti {
+    direction: ltr;
+    margin: 1px 5%;
+  }
+  .contextMenu {
+    margin-top: 60%;
+    margin-right: 6%;
+  }
+  .contextMenu1 {
+    margin-top: 66%;
+    margin-right: 6%;
+  }
+  .contextMenu2 {
+    margin-top: 77%;
+    margin-right: 6%;
+  }
+  .laun .text {
+    margin: 11% 41% 2.5% 41%;
+  }
+}/*# sourceMappingURL=laundary.css.map */

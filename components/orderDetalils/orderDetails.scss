@@ -1,0 +1,105 @@
+@import '../Header/header.scss';
+@import '../Orders/orders.scss';
+
+.orderDet .item{
+    width:100% ;
+ background: #ffff;
+border: 1px solid $colorPage;
+box-shadow: 1px 3px 5px #888;
+ display: flex;
+
+ 
+}
+.orderDet .orderText{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.orderDet .text{
+    color: $secondColor;
+}
+.orderDet .orderInfo{
+    padding: 35px;
+}
+
+.orderDet .orderInfo {
+    width:100%
+}
+ table {
+
+    width: 80%;
+     margin: auto;
+    
+}
+.orderDet .btnOrders{
+   
+    display: flex;
+     
+      margin-right: -25%;
+      margin-left: -25%;
+     margin-top:20px;
+      color: #ffff;
+      
+
+     }
+ .orderDet .btn1{
+     background-color: $colorPage;
+     margin-left: 5px;
+     margin-right: 5px;
+    
+     @include btnOrder();
+ }
+ .orderDet .btn2{
+     background-color: rgb(250, 41, 41);
+     @include btnOrder();
+    
+ }
+.orderDet .numOfOrder{
+    font-weight: bold;
+}
+
+.orderDet .stateOrder{
+    color: $secondColor;
+    width: 400px;
+}
+
+ .TableHead{
+    height: 60px;
+    
+    background-color: $colorPage;
+    color:#ffff;
+}
+ td{
+    border:2px solid $colorPage
+}
+ 
+@media screen and (max-width: 990px) {
+
+    
+    .orderDet .item {
+       width: 100%;
+}
+.orderDet .orderInfo{
+    padding: 20px;
+
+}
+.orderDet .btnOrders{
+
+      margin-right: -43%;
+      margin-left: -43%;
+     margin-top:20px;
+     
+      
+     }
+ 
+}
+.BtnSeeMore{
+    border:1px solid $colorPage;
+    font-size: 1.05em;
+    border-radius: 5px;
+    padding:4px;
+}
+ .BtnSeeMore:hover{
+    color: #fff;
+    background-color: $colorPage;
+    cursor: pointer;
+}

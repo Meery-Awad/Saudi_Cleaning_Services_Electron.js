@@ -1,0 +1,153 @@
+
+
+@import '../../Header/header.scss';
+@import '../StartUp/LogIn/Login.scss';
+.StartUp {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+.StartUp-container {
+    border: solid white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 550px;
+    width: 90%;
+}
+
+.Startup-form, .Login, .Signup, .current-section-start {
+    display: none;
+}
+
+.Startup-image-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    padding: 0;
+}
+
+.Startup-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Startup-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.Startup-form-header {
+    font-weight: bold;
+    font-size: 1.6em;
+    color: $colorPage;
+    margin-left:10px ;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.Startup-box-text {
+    width: 90%;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-startup-form {
+    width: max-content;
+    background-color: $secondColor;
+    border-color: $secondColor;
+    margin-top: -2px;
+}
+
+.btn-login-form:hover {
+    
+    background-color: $colorPage;
+    border-color: $colorPage;
+}
+
+.Login-form-no-account {
+    margin-top: 10px;
+}
+
+.Login-form-sign-up-btn {
+    color: $secondColor;
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.copy-rights-section {
+    display: none;
+}
+
+.copy-rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85em;
+}
+
+.copy-rights .contact {
+    text-decoration: underline;
+    color: $secondColor;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.current-section-start {
+    display: block;
+}
+
+.Startup-form-header-language{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.StartUp .fa-arrow-left{
+
+  
+    background-color: rgb(150, 150, 150);
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
+   font-size: 1em;
+   
+    
+   
+
+}
+.StartUp .fa-arrow-left:hover{
+    box-shadow: 2px 2px 3px rgb(141, 140, 140);
+   background-color: rgb(170, 169, 169) ;
+  
+    cursor: pointer;
+
+}
+.StartUp .btn{
+    width: max-content;
+}
+
+
+.endOfForm{
+    display: flex;
+}
